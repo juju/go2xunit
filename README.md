@@ -1,5 +1,7 @@
 # go2xunit
 
+This is the juju fork of [tebeka/go2xunit](https://github.com/tebeka/go2xunit).
+
 [![Travis](https://travis-ci.org/tebeka/go2xunit.svg?branch=master)](https://travis-ci.org/tebeka/go2xunit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -15,7 +17,7 @@ Currently in Jenkins please pick `Publish JUnit test result report` (not
 
 # Install
 
-    go get github.com/tebeka/go2xunit
+    go get github.com/juju/go2xunit
 
 
 # Usage
@@ -63,5 +65,5 @@ Bug reports go [here][bugs].
 [hudson]: http://hudson-ci.org/
 [gocheck]: http://labix.org/gocheck
 [testify]: http://godoc.org/github.com/stretchr/testify
-[bugs]: https://github.com/tebeka/go2xunit/issues
+[bugs]: https://github.com/juju/go2xunit/issues
 [xnet]: https://xunit.codeplex.com/wikipage?title=XmlFormat

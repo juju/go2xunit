@@ -1,10 +1,10 @@
 # Demo Project for Using go2xunit
 
-Install `go2xunit` with `go get github.com/tebeka/go2xunit`
+Install `go2xunit` with `go get github.com/juju/go2xunit`
 
 Use run-jenkins.sh to run Jenkins (see Jenkins download instructions in the script).
 
-Then configure Jenkins like the configuration screen below, note the 
+Then configure Jenkins like the configuration screen below, note the
 "Execute Shell" and "Publish JUnit test result report" sections.
 
 You after running, you should see test results like the below.
@@ -21,4 +21,3 @@ You after running, you should see test results like the below.
 ## Test Results - Detailed
 
 ![Tests Detailed](screenshots/build-tests.png)
-

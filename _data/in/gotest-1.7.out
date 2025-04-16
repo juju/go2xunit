@@ -15,4 +15,4 @@
     --- PASS: TestSquare/x=2 (0.00s)
 FAIL
 exit status 1
-FAIL	github.com/tebeka/go2xunit/demo	0.070s
+FAIL	github.com/juju/go2xunit/demo	0.070s

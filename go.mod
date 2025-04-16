@@ -1,3 +1,3 @@
-module github.com/tebeka/go2xunit
+module github.com/juju/go2xunit
 
 go 1.24.2

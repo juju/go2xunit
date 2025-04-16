@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<assembly name="_/go/src/github.com/tebeka/go2xunit/data"
+<assembly name="_/go/src/github.com/juju/go2xunit/data"
           run-date="2017-03-20" run-time="23:37:45"
           configFile="none"
           time="0.005"
@@ -11,7 +11,7 @@
           environment="n/a"
           test-framework="golang">
 
-    <class time="0.005" name="_/go/src/github.com/tebeka/go2xunit/data"
+    <class time="0.005" name="_/go/src/github.com/juju/go2xunit/data"
   	     total="4"
   	     passed="4"
   	     failed="0"

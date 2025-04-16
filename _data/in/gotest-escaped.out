@@ -7,4 +7,4 @@
     --- PASS: TestEscapedChars/"needs_escape" (0.00s)
     --- PASS: TestEscapedChars/reserved_<chars> (0.00s)
 PASS
-ok  	_/go/src/github.com/tebeka/go2xunit/data	0.005s
+ok  	_/go/src/github.com/juju/go2xunit/data	0.005s
