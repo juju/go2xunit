@@ -20,7 +20,7 @@ var args struct {
 	suitePrefix string
 }
 
-func init() {
+func cmdInit() {
 	flag.StringVar(&args.inFile, "input", "", "input file (default to stdin)")
 	flag.StringVar(&args.outFile, "output", "", "output file (default to stdout)")
 	flag.BoolVar(&args.fail, "fail", false, "fail (non zero exit) if any test failed")

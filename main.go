@@ -51,6 +51,8 @@ func getIO(inFile, outFile string) (*os.File, io.Writer, error) {
 }
 
 func main() {
+	cmdInit()
+
 	if args.showVersion {
 		fmt.Printf("go2xunit %s\n", Version)
 		os.Exit(0)

@@ -23,8 +23,12 @@ var (
 
 	// FAIL	_/home/miki/Projects/goroot/src/xunit	0.004s
 	// ok  	_/home/miki/Projects/goroot/src/anotherTest	0.000s
+	// FAIL	go2xunit/demo-gocheck	0.008s
+	// ok  	go2xunit/demo-gocheck	0.008s
+	// ok  	sisu.sh/go/code/catalog/transformer	(cached)
+	// ok  	github.com/juju/juju/wrench	0.024s	coverage: 92.5% of statements
 	gtSuiteRE = regexp.MustCompile(
-		"^(ok|FAIL)[ \t]+([^ \t]+)[ \t]+((-?\\d+.\\d+)|\\(cached\\))")
+		`^(ok|FAIL)[ \t]+([^ \t]+)[ \t]+((-?\d+.\d+)|\(cached\))s?(?:[ \t]coverage: .* of statements)?`)
 
 	// ?       alipay  [no test files]
 	gtNoFilesRE = regexp.MustCompile("^\\?.*\\[no test files\\]$")
@@ -50,7 +54,8 @@ var (
 	// FAIL	go2xunit/demo-gocheck	0.008s
 	// ok  	go2xunit/demo-gocheck	0.008s
 	// ok  	sisu.sh/go/code/catalog/transformer	(cached)
-	gcSuiteRE = regexp.MustCompile("^(ok|FAIL)[ \t]+([^ \t]+)[ \t]+(-?\\d+.\\d+)")
+	// ok  	github.com/juju/juju/wrench	0.024s	coverage: 92.5% of statements
+	gcSuiteRE = gtSuiteRE
 
 	// Match error output from tests
 	// Error Trace:    samples_test.go:27
